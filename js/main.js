@@ -37,8 +37,11 @@ const sr = ScrollReveal({
 })
 
 /* SCROLL HOME */
-sr.reveal('.home',{})
-// sr.reveal('',{delay: 200})
+sr.reveal('.home__data',{})
+sr.reveal('.home__title',{delay: 200})
+sr.reveal('.home__p',{delay: 200})
+sr.reveal('.home__button',{delay: 300})
+sr.reveal('.home__img',{interval: 400})
 sr.reveal('.intro__data',{})
 sr.reveal('.box-part__anchor',{delay: 200})
 sr.reveal('.box-part__archive',{delay: 220})
